@@ -1,1 +1,16 @@
-media.css
+@media only screen and (min-width: 500px) and (max-width: 800px){
+	body{
+		background-image: url("../img/atardecer.png");
+	}
+    img{
+    	content: url("../img/alargado.png");
+    }
+}
+@media only screen and (max-width: 499px){
+	body{
+		background-image: url("../img/noche.jpg");
+	}
+	img{
+		content: url("../img/dormilon.png");
+	}
+}

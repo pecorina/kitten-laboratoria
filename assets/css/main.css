@@ -1,7 +1,16 @@
-*{
-	margin-top: 0;
-	padding: 0;
+body{
+	background-image: url("../img/dia.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+
 }
-#gato{
-	background-image: url(../img/Copia de kitten-medium.png);
+section{
+	height: 700px;
+}
+.flex-container{
+	display: flex;
+}
+#ñaw.flex-container{
+	justify-content: center;
+	align-items: flex-end;
 }
